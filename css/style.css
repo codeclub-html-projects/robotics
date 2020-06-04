@@ -29,3 +29,16 @@ header h3 {
     text-shadow: 1px 1px white;
     font-size: 18pt;
 }
+#b1 {
+    margin-bottom: 30px;
+    padding: 5px 30px;
+    border-radius: 10px;
+    transition: background 1s, color 1s;
+}
+#b1:hover {
+    background: lightgreen;
+    color: red;
+    cursor: pointer;
+    padding-left: 40px;
+    padding-right: 40px;
+}
